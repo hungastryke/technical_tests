@@ -1,0 +1,148 @@
+/* Full width ---------------------------------------------------------------------------------------- */
+/* Large format ---------------------------------------------------------------------------------------- */
+@media all and (min-width: 48em) and (max-width: 60em) {
+  header, section {
+    padding: 0 0.25%; }
+
+  input[type=text] {
+    right: 1.5%; }
+
+  section:last-child dl dt {
+    width: 96.15%; }
+  section:last-child dl dd {
+    width: 98.25%; }
+  section:last-child dl.nodeals dd {
+    padding: 5% 0px;
+    background: #eeeeee;
+    text-align: center;
+    color: #999999; }
+    section:last-child dl.nodeals dd h3 {
+      font-size: 1.25em; }
+    section:last-child dl.nodeals dd p {
+      font-size: 0.85em; } }
+/* Medium format (iPad portrait) ----------------------------------------------------------------------- */
+@media all and (min-width: 30em) and (max-width: 48em) {
+  input[type=text] {
+    right: 1%;
+    width: 31%; } }
+@media all and (max-width: 48em) {
+  header, section {
+    width: 96%; }
+
+  input[type=text] {
+    right: 1%;
+    width: 31%; }
+
+  title {
+    font-size: 1.15em; }
+
+  section:last-child dl dt {
+    font-size: 0.85em; }
+  section:last-child dl dd {
+    width: 98.65%; }
+    section:last-child dl dd ul li DIV {
+      max-width: 60%; }
+      section:last-child dl dd ul li DIV h3 {
+        font-size: 0.7em; }
+      section:last-child dl dd ul li DIV p {
+        font-size: 0.6em; }
+  section:last-child dl.nodeals dd {
+    padding: 5% 0px;
+    background: #eeeeee;
+    text-align: center;
+    color: #999999; }
+    section:last-child dl.nodeals dd h3 {
+      font-size: 1.25em; }
+    section:last-child dl.nodeals dd p {
+      font-size: 0.85em; } }
+/* Medium and small formats (Android landscape) ------------------------------------------------------- */
+@media all and (max-width: 40em) {
+  .container {
+    width: auto;
+    margin: 0px; }
+
+  header, section {
+    margin: 10px 5px 0px; }
+
+  header:before {
+    content: "";
+    position: absolute;
+    top: 25px;
+    height: 0.2em;
+    width: 1em;
+    border-bottom: 0.15em solid #db2c27;
+    border-top: 0.45em double #db2c27; }
+
+  img {
+    width: 25%;
+    margin-left: 25px; }
+
+  input[type=text] {
+    top: -2px;
+    right: 0.5%;
+    height: 17px; }
+
+  section:last-child {
+    margin-top: -1px; }
+    section:last-child dl dd {
+      width: 99.15%; }
+      section:last-child dl dd ul li {
+        padding: 0px 0px 20px; }
+        section:last-child dl dd ul li DIV {
+          width: 50%; }
+          section:last-child dl dd ul li DIV h3 {
+            font-size: 0.7em; }
+          section:last-child dl dd ul li DIV p {
+            font-size: 0.6em; }
+    section:last-child dl.nodeals dd {
+      padding: 5% 0px;
+      background: #eeeeee;
+      text-align: center;
+      color: #999999; }
+      section:last-child dl.nodeals dd h3 {
+        font-size: 0.95em; }
+      section:last-child dl.nodeals dd p {
+        font-size: 0.65em; } }
+@media all and (max-width: 30em) {
+  header, section {
+    margin: 10px 2px 0px; }
+
+  .nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none; }
+    .nav a {
+      display: block;
+      box-shadow: none; }
+
+  section:last-child {
+    position: relative;
+    z-index: 2; }
+    section:last-child dl dd {
+      width: 101%;
+      border: none; }
+      section:last-child dl dd ul li {
+        padding: 0px; }
+        section:last-child dl dd ul li DIV {
+          top: 10%; }
+          section:last-child dl dd ul li DIV h3 {
+            font-size: 0.75em; }
+          section:last-child dl dd ul li DIV p {
+            margin-top: 10px; }
+        section:last-child dl dd ul li a {
+          position: static;
+          display: block;
+          margin: 20% 0px 2% 29.5%; }
+    section:last-child dl.nodeals dd {
+      padding: 5% 0px;
+      background: #eeeeee;
+      text-align: center;
+      color: #999999; }
+      section:last-child dl.nodeals dd h3 {
+        font-size: 1em; }
+      section:last-child dl.nodeals dd p {
+        font-size: 0.65em; }
+
+  input[type=text] {
+    right: 0px; } }

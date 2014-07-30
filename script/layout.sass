@@ -1,0 +1,157 @@
+@import _base
+/* Full width ----------------------------------------------------------------------------------------*/
+@media all and (min-width: $break-large)
+@media all and (max-width: $break-large)
+/* Large format ----------------------------------------------------------------------------------------*/
+@media all and (min-width: $break-medium) and (max-width: $break-large)
+  header, section
+    padding: 0 .25%
+  input[type=text]
+    right: 1.5%
+  section
+    &:last-child
+      dl
+        dt
+          width: 96.15%
+        dd
+          width: 98.25%
+      dl.nodeals
+        dd
+          padding: 5% 0px
+          background: #EEE
+          text-align: center
+          color: #999
+          h3
+            font-size: 1.25em
+          p
+            font-size: .85em
+/* Medium format (iPad portrait) -----------------------------------------------------------------------*/
+@media all and (min-width: $break-small) and (max-width: $break-medium)
+  input[type=text]
+    right: 1%
+    width: 31%
+@media all and (max-width: $break-medium)
+  header,section
+    width: 96%
+  input[type=text]
+    right: 1%
+    width: 31%
+  title
+    font-size: 1.15em
+  section
+    &:last-child
+      dl
+        dt
+          font-size: .85em
+        dd
+          width: 98.65%
+          ul
+            li
+              DIV
+                max-width: 60%
+                h3
+                  font-size: .7em
+                p
+                  font-size: .6em
+      dl.nodeals
+        dd
+          padding: 5% 0px
+          background: #EEE
+          text-align: center
+          color: #999
+          h3
+            font-size: 1.25em
+          p
+            font-size: .85em
+/* Medium and small formats (Android landscape) -------------------------------------------------------*/
+@media all and (max-width: $break-medium-small)
+  .container
+    width: auto
+    margin: 0px
+  header, section
+    margin: 10px 5px 0px
+  header
+    &:before 
+      content: ""
+      position: absolute
+      top: 25px
+      height: .2em 
+      width: 1em
+      border-bottom: .15em solid $westfield_red 
+      border-top: .45em double $westfield_red
+  img
+    width: 25%
+    margin-left: 25px
+  input[type=text]
+    top: -2px
+    right: .5%
+    height: 17px
+  section
+    &:last-child
+      margin-top: -1px
+      dl
+        dd
+          width: 99.15%
+          ul
+            li
+              padding: 0px 0px 20px
+              DIV
+                width: 50%
+                h3
+                  font-size: .7em
+                p
+                  font-size: .6em
+      dl.nodeals
+        dd
+          padding: 5% 0px
+          background: #EEE
+          text-align: center
+          color: #999
+          h3
+            font-size: .95em
+          p
+            font-size: .65em
+@media all and (max-width: $break-small)
+  header, section
+    margin: 10px 2px 0px
+  .nav
+    position: fixed
+    top: 0
+    left: 0
+    display: none
+    a
+      display: block
+      box-shadow: none
+  section
+    &:last-child
+      position: relative
+      z-index: 2
+      dl
+        dd
+          width: 101%
+          border: none
+          ul
+            li
+              padding: 0px
+              DIV
+                top: 10%
+                h3
+                  font-size: .75em
+                p
+                  margin-top: 10px
+              a
+                position: static
+                display: block
+                margin: 20% 0px 2% 29.5%
+      dl.nodeals
+        dd
+          padding: 5% 0px
+          background: #EEE
+          text-align: center
+          color: #999
+          h3
+            font-size: 1em
+          p
+            font-size: .65em
+  input[type=text]
+    right: 0px
